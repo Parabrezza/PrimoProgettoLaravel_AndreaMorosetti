@@ -1,0 +1,29 @@
+/* :root{
+    --color-P:#0066CC;
+    --color-A:darkkhaki;
+}
+
+.color-P{
+    color: var(--color-P);
+}
+
+.color-A{
+    color: var(--color-A);
+} */
+
+/* NAVBAR */
+
+.logo{
+     width: 150px;
+}
+
+.nav{
+    color: #0066CC; 
+}
+
+
+/* CARD */
+
+
+/* FOOTER */
+
