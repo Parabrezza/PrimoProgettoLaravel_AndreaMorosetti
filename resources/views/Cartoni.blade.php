@@ -67,15 +67,15 @@
 <x-layout>
     <div class="container">
       <h2 class="text-center text-danger my-5">Cartoni Preferiti</h2>
-      <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-center align-items-stretch card-container">
         @foreach ($Cartoni as $cartoni)
         <div class="col-12 col-md-3">
           <div class="card">
             <img src="{{ $cartoni['Immagine'] }}" class="card-img-top" alt="{{ $cartoni['Titolo'] }}">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-center">
               <h5 class="card-title">Titlolo: {{$cartoni['Titolo']}}</h5>
               <p class="card-text">Autore:{{$cartoni['Autore']}} </p>
-              <a href="{{ $cartoni['Trailer'] }}" class="btn btn-primary">Trailer</a>
+              <a href="{{ $cartoni['Trailer'] }}" class="btn btn-primary mx-5">Trailer</a>
             </div>
           </div>
         </div>

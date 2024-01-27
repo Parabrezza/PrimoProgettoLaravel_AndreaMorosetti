@@ -1,0 +1,54 @@
+*{
+    font-family: "Lucida Console";
+}
+
+:root{
+    --color-P:#007bff;
+    --color-A:RGB(255, 237, 0);
+}
+
+.color-P{
+    color: var(--color-P);
+}
+
+.color-A{
+    color: var(--color-A);
+}
+
+/* NAVBAR */
+
+.navcustom{
+    background-color: var(--color-P);   
+}
+
+.nav-link{
+    color: var(--color-A);
+}
+
+.btn{
+    color:var(--color-A);
+}
+
+.bo{
+    color:var(--color-A);
+}
+
+/* FOOTER */
+
+.footFix{
+    background-color: var(--color-P);
+}
+
+.footText{
+    color: var(--color-A);
+}
+
+/* CARD */
+ 
+.card {
+    border-color: var(--color-P);
+    border-width: 2px;
+    margin: 10px;   
+    /* max-height: 300px; */
+}
+  

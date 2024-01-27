@@ -67,15 +67,15 @@
 <x-layout>
   <div class="container">
      <h2 class="text-center text-danger my-5">Ultimi film visti al cinema</h2>
-     <div class="row justify-content-center align-items-center">
+     <div class="row justify-content-center align-items-stretch card-container">
         @foreach ($Film as $film)
-       <div class="col-12 col-md-3">
+       <div class="col-12 col-md-3 my-3">
           <div class="card">
             <img src="{{ $film['Immagine'] }}" class="card-img-top picture" alt="{{ $film['Titolo'] }}">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-center">
               <h5 class="card-title">Titlolo: {{$film['Titolo']}}</h5>
               <p class="card-text">Regista:{{$film['Regista']}} </p>
-              <a href="{{ $film['Trailer'] }}" class="btn btn-primary">Trailer</a>
+              <a href="{{ $film['Trailer'] }}" class="btn btn-primary mx-5">Trailer</a>
             </div>
           </div>
         </div>

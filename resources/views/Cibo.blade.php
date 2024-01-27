@@ -67,14 +67,15 @@
 <x-layout>
   <div class="container">
       <h2 class="text-center text-danger my-5">Cibo</h2>
-      <div class="row justify-content-center align-items-center">
+      <div class="row justify-content-center align-items-stretch card-container">
         @foreach ($Cibo as $cibo)
         <div class="col-12 col-md-3">
          <div class="card">
            <img src="{{ $cibo['Immagine'] }}" class="card-img-top" alt="{{ $cibo['Cibo'] }}">
-           <div class="card-body">
-             <h5 class="card-title">Cibo: {{$cibo['Cibo']}}</h5>
-             <a href="{{ $cibo['Videoricetta'] }}" class="btn btn-primary">Videoricetta</a>
+           <div class="card-body d-flex flex-column justify-content-center">
+            <h5 class="card-title">Cibo: {{$cibo['Cibo']}}</h5>
+            <p class="card-text">Tipologia:{{$cibo['Tipologia']}} </p>
+            <a href="{{ $cibo['Videoricetta'] }}" class=" text-center btn btn-primary mx-5">Videoricetta</a>
            </div>
          </div>
         </div>

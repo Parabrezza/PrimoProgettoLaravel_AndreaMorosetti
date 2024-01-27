@@ -29,6 +29,14 @@
 <title>Primo Progetto Laravel</title>
 <x-layout>
     <h1 class="text-center text-danger my-5">Primo Progetto Laravel</h1>
+    <h2 class="text-center text-danger my-5">Classe Hack125</h2>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <img src="https://hackademy.it/img/logo-aulab-hackademy-black.png" alt="LogoAulab">
+        </div>
+      </div>
+    </div>
 </x-layout>
    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
